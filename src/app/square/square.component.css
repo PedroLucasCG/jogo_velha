@@ -1,0 +1,8 @@
+mat-card{
+    font-size: 10rem;
+    align-content: center;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

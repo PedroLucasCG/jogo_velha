@@ -1,0 +1,9 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 15rem);
+    grid-gap: .3rem;
+}
+
+button{
+    margin: auto;
+}

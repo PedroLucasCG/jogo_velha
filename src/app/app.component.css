@@ -1,0 +1,11 @@
+app-board {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100svh;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: rgb(179, 193, 235);
+}

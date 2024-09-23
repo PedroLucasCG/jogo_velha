@@ -1,0 +1,12 @@
+<h1>Jogador {{ player }}</h1>
+<button mat-button (click)="newGame()">Comece outro jogo</button>
+
+<h2 *ngIf="winner">{{ winner }} ganhou!</h2>
+<main>
+  <app-square
+    *ngFor="let square of squares; let i = index"
+    [value]="square"
+    (click)="makeMove(i)"
+  >
+  </app-square>
+</main>
